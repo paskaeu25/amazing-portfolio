@@ -16,7 +16,7 @@ export default function Nav() {
         {navLinks.map(({ id, name, icon, path }) => {
           return (
             <li className="nav-item" key={id}>
-              <NavLink to={path}>
+              <NavLink to={path} className={'nav-link'}>
                 <span>
                   <FontAwesomeIcon icon={icon} />
                 </span>
@@ -26,6 +26,11 @@ export default function Nav() {
           );
         })}
       </ul>
+      <div className="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </nav>
   );
 }

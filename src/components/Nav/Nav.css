@@ -1,0 +1,8 @@
+.navlinks {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  left: 0;
+  padding: 60px 30px;
+  background: var(--color-light);
+}

@@ -13,9 +13,15 @@ import { navLinks } from '../../data/Data';
 import { useState } from 'react';
 
 export default function Nav() {
+  // UseState function
+  const [showmenu, setShowMenu] = useState(false);
+  let MenuHandler = () => {
+    setShowMenu(!showmenu);
+  };
+
   return (
     <nav>
-      <ul className="navlinks">
+      <ul className={`${showmenu ? 'navlinks navlinks-show' : 'navlinks'}`}>
         {navLinks.map(({ id, name, icon, path }) => {
           return (
             <li className="nav-item" key={id}>
@@ -34,7 +40,10 @@ export default function Nav() {
           );
         })}
       </ul>
-      <div className="nav-toggle ">
+      <div
+        className={`${showmenu ? 'nav-toggle nav-close' : 'nav-toggle'}`}
+        onClick={MenuHandler}
+      >
         <span></span>
         <span></span>
         <span></span>

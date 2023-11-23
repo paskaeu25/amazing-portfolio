@@ -2,11 +2,15 @@
   position: fixed;
   inset: 0;
   width: 100%;
-  left: 0;
+  left: -100%;
   padding: 60px 30px;
   background: var(--color-light);
   transition: var(--transition);
-  z-index: 11;
+  /z-index: 11;
+}
+
+.navlinks-show {
+  left: 0;
 }
 
 .nav-link {

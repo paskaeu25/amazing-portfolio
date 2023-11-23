@@ -6,7 +6,7 @@
   padding: 60px 30px;
   background: var(--color-light);
   transition: var(--transition);
-  /z-index: 11;
+  z-index: 11;
 }
 
 .navlinks-show {
@@ -38,7 +38,7 @@
   width: 100%;
   display: block;
   height: 2px;
-  background-color: var(--color-dark);
+  background-color: var(--color-light);
   margin-bottom: 5px;
   transition: var(--transition);
 }
@@ -110,7 +110,6 @@
   .nav-link h3 {
     transition: var(--transition);
     transform: scale(0);
-
   }
 
   .nav-link:hover h3 {
@@ -118,13 +117,18 @@
     transform: scale(1);
   }
 
-  .navlinksActive span{
+  .navlinksActive span {
     background-color: var(--color-primary);
     color: white;
   }
-  
-  .navlinksActive h3{
-    transform: scale(.8);
+
+  .navlinksActive h3 {
+    transform: scale(0.8);
   }
+}
 
-
+@media (min-width: 736px) {
+  .nav-toggle span {
+    background-color: var(--color-dark);
+  }
+}

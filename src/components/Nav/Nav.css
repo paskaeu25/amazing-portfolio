@@ -23,4 +23,18 @@
 }
 
 .nav-toggle {
+  position: fixed;
+  top: 2.5rem;
+  right: 5%;
+  width: 24px;
+  z-index: 12;
+}
+
+.nav-toggle span {
+  width: 100%;
+  display: block;
+  height: 2px;
+  background-color: var(--color-dark);
+  margin-bottom: 5px;
+  transition: var(--transition);
 }

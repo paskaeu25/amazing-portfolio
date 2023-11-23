@@ -9,6 +9,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // Data Import
 import { navLinks } from '../../data/Data';
 
+// Use State Import
+import { useState } from 'react';
+
 export default function Nav() {
   return (
     <nav>
@@ -16,7 +19,12 @@ export default function Nav() {
         {navLinks.map(({ id, name, icon, path }) => {
           return (
             <li className="nav-item" key={id}>
-              <NavLink to={path} className={'nav-link'}>
+              <NavLink
+                to={path}
+                className={({ isActive }) =>
+                  isActive ? 'nav-link navlinksActive' : 'nav-link'
+                }
+              >
                 <span>
                   <FontAwesomeIcon icon={icon} />
                 </span>
@@ -26,7 +34,7 @@ export default function Nav() {
           );
         })}
       </ul>
-      <div className="nav-close">
+      <div className="nav-toggle ">
         <span></span>
         <span></span>
         <span></span>

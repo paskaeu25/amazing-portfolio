@@ -26,7 +26,7 @@ export default function Nav() {
           );
         })}
       </ul>
-      <div className="nav-toggle">
+      <div className="nav-close">
         <span></span>
         <span></span>
         <span></span>

@@ -1,2 +1,22 @@
 .Heading-text {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 4rem;
+
+  & span {
+    color: var(--color-primary);
+  }
+}
+
+/* Max With 1024px */
+@media (max-width: 1024px) {
+  .Heading-text {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .Heading-text {
+    font-size: 1.8rem;
+  }
 }

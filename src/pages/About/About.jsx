@@ -10,6 +10,7 @@ import CV from '../../assets/CV.pdf';
 // Component import
 import HeadingText from '../../components/HeadingText/HeadingText';
 import Card from '../../UI/Card';
+import Tools from '../../components/Tools/Tools';
 
 // Experience Data Import
 import { experience } from '../../data/Data';
@@ -61,6 +62,7 @@ export default function About() {
           </div>
         </div>
       </section>
+      <Tools />
     </>
   );
 }

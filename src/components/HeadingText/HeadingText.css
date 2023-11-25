@@ -15,6 +15,7 @@
   }
 }
 
+/* max with 600px */
 @media (max-width: 600px) {
   .Heading-text {
     font-size: 1.8rem;

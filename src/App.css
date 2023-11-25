@@ -19,6 +19,12 @@
   --transition: 0.4s ease;
 }
 
+.dark-theme {
+  --color-body: hsl(231, 39%, 10%);
+  --color-dark: hsl(0, 0%, 100%);
+  --color-light: hsl(0, 0%, 10%);
+}
+
 body {
   background-color: var(--color-body);
   color: var(--color-dark);

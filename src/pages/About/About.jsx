@@ -10,6 +10,9 @@ import CV from '../../assets/CV.pdf';
 // Component import
 import HeadingText from '../../components/HeadingText/HeadingText';
 
+// Experience Data Import
+import { experience } from '../../data/Data';
+
 export default function About() {
   return (
     <>
@@ -42,6 +45,8 @@ export default function About() {
               </span>
             </a>
           </div>
+
+          <div className="about-right"></div>
         </div>
       </section>
     </>

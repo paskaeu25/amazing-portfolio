@@ -9,6 +9,7 @@ import CV from '../../assets/CV.pdf';
 
 // Component import
 import HeadingText from '../../components/HeadingText/HeadingText';
+import Card from '../../UI/Card';
 
 // Experience Data Import
 import { experience } from '../../data/Data';
@@ -46,7 +47,18 @@ export default function About() {
             </a>
           </div>
 
-          <div className="about-right"></div>
+          <div className="about-right">
+            {experience.map(({ id, no, title }) => {
+              return (
+                <Card key={id} classname={'experience-card'}>
+                  <h1>
+                    <span>{no}</span>
+                  </h1>
+                  <p>{title}</p>
+                </Card>
+              );
+            })}
+          </div>
         </div>
       </section>
     </>

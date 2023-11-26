@@ -11,6 +11,7 @@ import CV from '../../assets/CV.pdf';
 import HeadingText from '../../components/HeadingText/HeadingText';
 import Card from '../../UI/Card';
 import Tools from '../../components/Tools/Tools';
+import Services from '../../components/Services/Services';
 
 // Experience Data Import
 import { experience } from '../../data/Data';
@@ -63,6 +64,7 @@ export default function About() {
         </div>
       </section>
       <Tools />
+      <Services />
     </>
   );
 }

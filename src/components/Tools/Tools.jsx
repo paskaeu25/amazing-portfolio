@@ -5,7 +5,6 @@ import HeadingText from '../HeadingText/HeadingText';
 
 // Data Import
 import { tools } from '../../data/Data';
-import Card from '../../UI/Card';
 
 export default function Tools() {
   return (

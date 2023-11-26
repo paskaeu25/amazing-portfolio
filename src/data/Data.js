@@ -120,14 +120,14 @@ export const portfolio = [
     github: '#',
   },
   {
-    id: 1,
+    id: 2,
     img: protfoliImg2,
     name: 'Project-2',
     des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
     github: '#',
   },
   {
-    id: 1,
+    id: 3,
     img: protfoliImg3,
     name: 'Project-3',
     des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',

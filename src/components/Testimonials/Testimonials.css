@@ -1,0 +1,33 @@
+.testimonials-container {
+  width: 50%;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  text-align: center;
+
+  & img {
+    width: 4rem;
+    margin: 0 auto;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--color-primary) !important;
+}
+
+/* Max Width 1024px */
+@media (max-width: 1024px) {
+  .testimonials-container {
+    width: 60%;
+  }
+}
+
+/* Max Width 600 */
+@media (max-width: 600px) {
+  .testimonials-container {
+    width: 90%;
+  }
+}

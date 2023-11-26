@@ -34,3 +34,17 @@
     text-decoration: underline;
   }
 }
+
+/* Max Width 1024px */
+@media (max-width: 1024px) {
+  .portfolio-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Max Width 600px */
+@media (max-width: 600px) {
+  .portfolio-container {
+    grid-template-columns: 1fr;
+  }
+}

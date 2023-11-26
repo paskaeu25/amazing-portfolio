@@ -1,0 +1,38 @@
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+
+  .services-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: var(--transition);
+    font-size: 1.4rem;
+
+    &:hover {
+      transform: scale(1.1);
+      background: var(--color-primary);
+      color: var(--color-white);
+      & h3 {
+        color: var(--color-white);
+      }
+    }
+  }
+}
+
+/* Max Width 1024px */
+@media (max-width: 1024px) {
+  .services-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+/* Max Width 600px */
+@media (max-width: 600px) {
+  .services-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

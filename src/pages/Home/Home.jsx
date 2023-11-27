@@ -1,5 +1,5 @@
 import './Home.css';
-import HeaderImage from '../../assets/header.jpg';
+import HeaderImage from '../../assets/pavelas-bulatovas.jpg';
 
 // Fontawesome import
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

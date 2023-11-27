@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 // CV import
-import CV from '../../assets/CV.pdf';
+import CV from '../../assets/Pavelas-resume.pdf';
 
 // Component import
 import HeadingText from '../../components/HeadingText/HeadingText';

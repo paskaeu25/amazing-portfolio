@@ -1,0 +1,43 @@
+.contact-container {
+  max-width: 600px;
+  width: 50%;
+
+  & input,
+  textarea {
+    border: 2px solid var(--color-dark);
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    background: transparent;
+    color: var(--color-dark);
+    resize: none;
+  }
+
+  & button {
+    background: transparent;
+    margin-top: 0;
+  }
+}
+
+footer {
+  background-color: var(--color-light);
+  padding: 2rem;
+  text-align: center;
+  color: var(--color-dark);
+}
+
+/* Max Width 1024px */
+@media (max-width: 1024px) {
+  .contact-container {
+    width: 70%;
+  }
+}
+
+/* Max Width 600px */
+@media (max-width: 600px) {
+  .contact-container {
+    width: 90%;
+  }
+}

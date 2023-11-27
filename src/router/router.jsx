@@ -18,7 +18,7 @@ export default function router() {
       <Theme />
       <Social />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/amazing-portfolio/" element={<Home />} />
         <Route path="/amazing-portfolio/about" element={<About />} />
         <Route path="/amazing-portfolio/portfolio" element={<Portfolio />} />
         <Route path="/amazing-portfolio/contact" element={<Contact />} />

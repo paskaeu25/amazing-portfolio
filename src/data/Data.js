@@ -9,7 +9,7 @@ export const navLinks = [
     id: 1,
     name: 'Home',
     icon: faHome,
-    path: '/',
+    path: '/amazing-portfolio/',
   },
   {
     id: 2,

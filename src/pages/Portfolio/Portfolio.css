@@ -11,8 +11,13 @@
 .project {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 0.7rem;
   transition: var(--transition);
+
+  & .btn:first-child {
+    margin-right: 1rem;
+  }
 
   &:hover {
     background-color: var(--color-primary);
@@ -22,33 +27,34 @@
     a {
       color: var(--color-white);
     }
+
+    .btn {
+      background-color: var(--color-white);
+      color: var(--color-primary);
+
+      &:hover {
+        background-color: var(--color-primary);
+        color: var(--color-white);
+        border-color: var(--color-white);
+      }
+    }
   }
 
   & img {
     border-radius: 1rem;
     border: 1px solid var(--color-dark);
   }
-
-  & a {
-    color: var(--color-primary);
-    text-decoration: underline;
-  }
-
-  & .links {
-    display: flex;
-    gap: 2rem;
-  }
 }
 
-/* Max Width 1024px */
-@media (max-width: 1024px) {
+/* Max Width 1519px */
+@media (max-width: 1519px) {
   .portfolio-container {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-/* Max Width 600px */
-@media (max-width: 600px) {
+/* Max Width 888px */
+@media (max-width: 888px) {
   .portfolio-container {
     grid-template-columns: 1fr;
   }

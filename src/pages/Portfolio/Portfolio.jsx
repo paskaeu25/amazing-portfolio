@@ -17,29 +17,25 @@ export default function Portfolio() {
   return (
     <>
       <section className="portfolio">
-        <HeadingText title={'Resent'} titlePrimary={'Work'} />
+        <HeadingText title={'Recent'} titlePrimary={'Work'} />
         <div className="container portfolio-container">
           {portfolio.map(({ id, img, name, des, github, live }, index) => {
             const isLastItem = index === portfolio.length - 1;
             return (
-              <Card classname="project" key={id}>
+              <Card classname={'project'} key={id}>
                 <img src={img} alt="" />
                 <h3>{name}</h3>
                 <p>{des}</p>
                 <div className="links">
                   {github && !isLastItem && (
-                    <a
-                      className="btn btn-secondary"
-                      target="_blank"
-                      href={github}
-                    >
+                    <a className="btn" target="_blank" href={github}>
                       Github
                       <span>
                         <FontAwesomeIcon icon={faGithub} />
                       </span>
                     </a>
                   )}
-                  <a className="btn btn-secondary" target="_blank" href={live}>
+                  <a className="btn" target="_blank" href={live}>
                     Demo
                     <span>
                       <FontAwesomeIcon icon={faPlay} />

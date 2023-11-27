@@ -30,6 +30,7 @@ export default function Nav() {
                 className={({ isActive }) =>
                   isActive ? 'nav-link navlinksActive' : 'nav-link'
                 }
+                onClick={MenuHandler}
               >
                 <span>
                   <FontAwesomeIcon icon={icon} />

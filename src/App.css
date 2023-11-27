@@ -123,6 +123,9 @@ img {
   color: var(--color-primary);
 }
 
+.btn-secondary {
+}
+
 .container {
   width: 80%;
   margin: 0 auto;

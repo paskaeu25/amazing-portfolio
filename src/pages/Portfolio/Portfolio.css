@@ -33,6 +33,11 @@
     color: var(--color-primary);
     text-decoration: underline;
   }
+
+  & .links {
+    display: flex;
+    gap: 2rem;
+  }
 }
 
 /* Max Width 1024px */

@@ -108,30 +108,32 @@ export const services = [
   },
 ];
 
-import protfoliImg1 from '../../src/assets/p1.jpg';
-import protfoliImg2 from '../../src/assets/p2.jpg';
-import protfoliImg3 from '../../src/assets/p3.jpg';
+import protfoliImg1 from '../../src/assets/dream-travel.gif';
+import protfoliImg2 from '../../src/assets/gym-pulse-600x400.jpg';
+import protfoliImg3 from '../../src/assets/kalbos-delione-600x400.jpg';
 export const portfolio = [
   {
     id: 1,
     img: protfoliImg1,
-    name: 'Project-1',
-    des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
-    github: '#',
+    name: 'Dream Travel Website',
+    des: 'The website is designed to showcase the services offered by a travel agency and provide essential information to prospective and existing clients.',
+    github: 'https://github.com/paskaeu25/travel-website',
+    live: 'https://paskaeu25.github.io/travel-website/',
   },
   {
     id: 2,
     img: protfoliImg2,
-    name: 'Project-2',
-    des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
-    github: '#',
+    name: 'Power Pulse Gym Website',
+    des: `A website which is tailored to showcase the gym's facilities, services, and offer vital information to both potential and existing members.`,
+    github: 'https://github.com/paskaeu25/power-pulse-gym',
+    live: 'https://paskaeu25.github.io/power-pulse-gym/',
   },
   {
     id: 3,
     img: protfoliImg3,
-    name: 'Project-3',
-    des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
-    github: '#',
+    name: 'Speech Therapy - Kalbos Delione',
+    des: `A website spotlighting the company's expertise and services, catering to those seeking solutions for speech and language challenges.`,
+    live: 'https://kalbosdelione.lt/',
   },
 ];
 

@@ -81,49 +81,46 @@ img {
   color: var(--color-primary);
   overflow: hidden;
   position: relative;
-}
 
-.btn span {
-  position: absolute;
-  width: 52px;
-  background-color: var(--color-primary);
-  color: white;
-  height: 100%;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  right: 0;
-  transition: var(--transition);
-}
+  &:hover {
+    color: white;
 
-.btn::before {
-  content: '';
-  width: 0;
-  height: 100%;
-  background-color: var(--color-primary);
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -1;
-  transition: var(--transition);
-}
+    & span {
+      background-color: var(--color-white);
+      color: var(--color-primary);
+    }
+  }
 
-.btn:hover::before {
-  width: 100%;
-}
+  &::before {
+    content: '';
+    width: 0;
+    height: 100%;
+    background-color: var(--color-primary);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: var(--transition);
+  }
 
-.btn:hover {
-  color: white;
-}
+  &:hover::before {
+    width: 100%;
+  }
 
-.btn:hover span {
-  background-color: var(--color-white);
-  color: var(--color-primary);
-}
-
-.btn-secondary {
+  & span {
+    position: absolute;
+    width: 52px;
+    background-color: var(--color-primary);
+    color: white;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    transition: var(--transition);
+  }
 }
 
 .container {

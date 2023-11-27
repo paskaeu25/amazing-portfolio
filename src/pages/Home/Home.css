@@ -42,6 +42,10 @@ header {
 
 /* Media queries */
 @media (max-width: 736px) {
+  header {
+    height: auto;
+  }
+
   .header-container {
     grid-template-columns: 1fr;
     gap: 0;

@@ -9,12 +9,14 @@ import Contact from '../pages/Contact/Contact';
 // Import components:
 import Nav from '../components/Nav/Nav';
 import Theme from '../components/Theme/Theme';
+import Social from '../components/Social/Social';
 
 export default function router() {
   return (
     <BrowserRouter>
       <Nav />
       <Theme />
+      <Social />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

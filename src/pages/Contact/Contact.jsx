@@ -13,10 +13,13 @@ export default function Contact() {
       <section>
         <HeadingText title={'Contact'} titlePrimary={'Me'} />;
         <div className="container contact-container">
-          <form action="#">
+          <form
+            action="https://formsubmit.co/40d4738fceaae57e942bf0953995ffd0"
+            method="POST"
+          >
             <input type="text" required placeholder="Your Name" />
             <input type="email" required placeholder="Your Email" />
-            <input type="tel" required placeholder="Your  Number" />
+            <input type="tel" required placeholder="Your Number" />
             <textarea
               name="message"
               id="message"

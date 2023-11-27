@@ -9,25 +9,25 @@ export const navLinks = [
     id: 1,
     name: 'Home',
     icon: faHome,
-    path: '/',
+    path: '/amazing-portfolio/home',
   },
   {
     id: 2,
     name: `About`,
     icon: faUserGraduate,
-    path: '/About',
+    path: '/amazing-portfolio/about',
   },
   {
     id: 3,
     name: 'Portfolio',
     icon: faFolder,
-    path: '/portfolio',
+    path: '/amazing-portfolio/portfolio',
   },
   {
     id: 4,
     name: 'Contact',
     icon: faEnvelope,
-    path: '/Contact',
+    path: '/amazing-portfolio/contact',
   },
 ];
 

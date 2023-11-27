@@ -145,25 +145,25 @@ export const testimonials = [
   {
     id: 1,
     img: avatar1,
-    name: 'Dong Lee',
-    des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.',
+    name: 'Alex Thompson',
+    des: 'Hiring Pavelas was one of the best decisions for our startup. His coding prowess, reliability, and dedication to meeting deadlines were instrumental in bringing our product to life.',
   },
   {
     id: 2,
     img: avatar2,
-    name: 'Mohammed Habib',
-    des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.',
+    name: 'Mark Rodriguez',
+    des: `I've collaborated with many developers, but Pavelas stands out. His coding expertise and problem-solving skills are unmatched. He delivered beyond expectations and contributed immensely to our project's success.`,
   },
   {
     id: 3,
     img: avatar3,
-    name: 'Jhon Alas',
-    des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.',
+    name: 'Arjun Patel',
+    des: `As a fellow developer, I can attest to the remarkable skills and dedication of Pavelas. His problem-solving abilities and commitment to clean, efficient code have greatly contributed to our project's success.`,
   },
   {
     id: 4,
     img: avatar4,
-    name: 'Irfan Nazir',
-    des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.',
+    name: 'Vikram Sharma',
+    des: `I had the pleasure of collaborating with developer Pavelas on a demanding project. His expertise in web development, combined with a proactive approach, made a significant impact on our team's productivity and project milestones.`,
   },
 ];

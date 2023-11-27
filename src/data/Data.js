@@ -49,12 +49,12 @@ export const experience = [
   },
 ];
 
-import image1 from '../../src/assets/python.png';
-import image2 from '../../src/assets/react.png';
-import image3 from '../../src/assets/node.png';
-import image4 from '../../src/assets/figma.png';
-import image5 from '../../src/assets/ps.png';
-import image6 from '../../src/assets/sketch.png';
+import image1 from '../../src/assets/html-5.png';
+import image2 from '../../src/assets/css-3.png';
+import image3 from '../../src/assets/js.png';
+import image4 from '../../src/assets/react.png';
+import image5 from '../../src/assets/node.png';
+import image6 from '../../src/assets/git.png';
 export const tools = [
   {
     id: 1,
@@ -83,28 +83,28 @@ export const tools = [
 ];
 
 import {
-  faCodeBranch,
   faCode,
-  faCodeCompare,
+  faTerminal,
+  faArrowsLeftRightToLine,
 } from '@fortawesome/free-solid-svg-icons';
 export const services = [
   {
     id: 1,
     icon: faCode,
-    name: 'Web Development',
-    des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.',
+    name: 'Front End Development',
+    des: 'I excel in frontend technologies such as HTML5, CSS3, JavaScript and React, ensuring your website delivers an immersive user experience and intuitive interface.',
   },
   {
     id: 2,
-    icon: faCodeBranch,
-    name: 'Apps Development',
-    des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.',
+    icon: faTerminal,
+    name: 'Back End Development',
+    des: `My expertise lies primarily in Node.js, coupled with a deep understanding of MongoDB. I specialize in building robust server-side architectures that power websites and applications, focusing on creating efficient and scalable solutions tailored to meet your specific needs.`,
   },
   {
     id: 3,
-    icon: faCodeCompare,
-    name: 'Python Customize',
-    des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.',
+    icon: faArrowsLeftRightToLine,
+    name: 'Responsive Design',
+    des: 'I employ CSS preprocessors like SASS or LESS and frameworks like Bootstrap or Tailwind CSS to ensure your website is flawlessly responsive across all devices and screen sizes.',
   },
 ];
 

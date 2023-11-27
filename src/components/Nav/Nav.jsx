@@ -27,6 +27,7 @@ export default function Nav() {
             <li className="nav-item" key={id}>
               <NavLink
                 to={path}
+                end
                 className={({ isActive }) =>
                   isActive ? 'nav-link navlinksActive' : 'nav-link'
                 }

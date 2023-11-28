@@ -2,7 +2,11 @@ import './Social.css';
 
 // Fontawesome import
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import {
+  faGithub,
+  faLinkedin,
+  faFacebookMessenger,
+} from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function Social() {
@@ -30,6 +34,13 @@ export default function Social() {
           <a target="_blank" href="mailto:bulatovp9@gmail.com">
             <span>
               <FontAwesomeIcon icon={faEnvelope} />
+            </span>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://m.me/bulatovp">
+            <span>
+              <FontAwesomeIcon icon={faFacebookMessenger} />
             </span>
           </a>
         </li>

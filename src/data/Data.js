@@ -108,29 +108,38 @@ export const services = [
   },
 ];
 
-import protfoliImg1 from '../../src/assets/dream-travel.gif';
+import protfoliImg1 from '../../src/assets/scuba-logger-demo.gif';
 import protfoliImg2 from '../../src/assets/gym-pulse-600x400.jpg';
-import protfoliImg3 from '../../src/assets/kalbos-delione-600x400.jpg';
+import protfoliImg3 from '../../src/assets/dream-travel.gif';
+import protfoliImg4 from '../../src/assets/kalbos-delione-600x400.jpg';
 export const portfolio = [
   {
     id: 1,
     img: protfoliImg1,
+    name: 'Scuba Logger',
+    des: `A full-stack web app that allows users to log their scuba diving experiences. Built using MongoDB, Express.js, EJS, and Node.js (MEEN stack). Styled with Tailwind CSS for a cohesive and responsive design.`,
+    github: 'https://github.com/paskaeu25/diving-logbook',
+    live: 'https://scuba-logger.onrender.com/',
+  },
+  {
+    id: 2,
+    img: protfoliImg2,
     name: 'Dream Travel Website',
     des: 'The website is designed to showcase the services offered by a travel agency and provide essential information to prospective and existing clients.',
     github: 'https://github.com/paskaeu25/travel-website',
     live: 'https://paskaeu25.github.io/travel-website/',
   },
   {
-    id: 2,
-    img: protfoliImg2,
+    id: 3,
+    img: protfoliImg3,
     name: 'Power Pulse Gym Website',
     des: `A website which is tailored to showcase the gym's facilities, services, and offer vital information to both potential and existing members.`,
     github: 'https://github.com/paskaeu25/power-pulse-gym',
     live: 'https://paskaeu25.github.io/power-pulse-gym/',
   },
   {
-    id: 3,
-    img: protfoliImg3,
+    id: 4,
+    img: protfoliImg4,
     name: 'Speech Therapy - Kalbos Delione',
     des: `A website spotlighting the company's expertise and services, catering to those seeking solutions for speech and language challenges.`,
     live: 'https://kalbosdelione.lt/',

@@ -26,18 +26,3 @@ export default function router() {
     </BrowserRouter>
   );
 }
-
-// const router = () => {
-//   return (
-//     <BrowserRouter>
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/about" element={<About />} />
-//         <Route path="/portfolio" element={<Portfolio />} />
-//         <Route path="/contact" element={<Contact />} />
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// };
-
-// export default router;

@@ -108,7 +108,7 @@ export const services = [
   },
 ];
 
-import protfoliImg1 from '../../src/assets/scuba-logger-demo.gif';
+import protfoliImg1 from '../../src/assets/scuba-logger.gif';
 import protfoliImg2 from '../../src/assets/gym-pulse-600x400.jpg';
 import protfoliImg3 from '../../src/assets/dream-travel.gif';
 import protfoliImg4 from '../../src/assets/kalbos-delione-600x400.jpg';

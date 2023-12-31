@@ -20,7 +20,6 @@ export default function Portfolio() {
         <HeadingText title={'Recent'} titlePrimary={'Work'} />
         <div className="container portfolio-container">
           {portfolio.map(({ id, img, name, des, github, live }, index) => {
-            const isLastItem = index === portfolio.length - 1;
             return (
               <Card classname={'project'} key={id}>
                 <img src={img} alt="" />
@@ -35,12 +34,14 @@ export default function Portfolio() {
                       </span>
                     </a>
                   )}
-                  <a className="btn" target="_blank" href={live}>
-                    Demo
-                    <span>
-                      <FontAwesomeIcon icon={faPlay} />
-                    </span>
-                  </a>
+                  {live && (
+                    <a className="btn" target="_blank" href={live}>
+                      Demo
+                      <span>
+                        <FontAwesomeIcon icon={faPlay} />
+                      </span>
+                    </a>
+                  )}
                 </div>
               </Card>
             );

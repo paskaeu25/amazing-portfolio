@@ -151,7 +151,6 @@ export const portfolio = [
     name: 'Fit Blog',
     des: `Fit Blog is a sleek and efficient blogging platform designed to streamline content creation and sharing. Developed primarily with React and React Router, it ensures a smooth and responsive user experience.`,
     github: 'https://github.com/paskaeu25/fit-blog',
-    live: 'https://github.com/paskaeu25/fit-blog',
   },
 ];
 

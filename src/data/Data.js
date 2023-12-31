@@ -109,10 +109,10 @@ export const services = [
 ];
 
 import protfoliImg1 from '../../src/assets/scuba-logger.gif';
-import protfoliImg2 from '../../src/assets/gym-pulse-600x400.jpg';
+import protfoliImg2 from '../../src/assets/blog-demo.gif';
 import protfoliImg3 from '../../src/assets/dream-travel.gif';
 import protfoliImg4 from '../../src/assets/kalbos-delione-600x400.jpg';
-import protfoliImg5 from '../../src/assets/blog-demo.gif';
+import protfoliImg5 from '../../src/assets/gym-pulse-600x400.jpg';
 export const portfolio = [
   {
     id: 1,
@@ -125,11 +125,11 @@ export const portfolio = [
   {
     id: 2,
     img: protfoliImg2,
-    name: 'Dream Travel Website',
-    des: 'The website is designed to showcase the services offered by a travel agency and provide essential information to prospective and existing clients.',
-    github: 'https://github.com/paskaeu25/travel-website',
-    live: 'https://paskaeu25.github.io/travel-website/',
+    name: 'Fit Blog',
+    des: `Fit Blog is a sleek and efficient blogging platform designed to streamline content creation and sharing. Developed primarily with React and React Router, it ensures a smooth and responsive user experience.`,
+    github: 'https://github.com/paskaeu25/fit-blog',
   },
+
   {
     id: 3,
     img: protfoliImg3,
@@ -145,12 +145,14 @@ export const portfolio = [
     des: `A website spotlighting the company's expertise and services, catering to those seeking solutions for speech and language challenges.`,
     live: 'https://kalbosdelione.lt/',
   },
+
   {
     id: 5,
     img: protfoliImg5,
-    name: 'Fit Blog',
-    des: `Fit Blog is a sleek and efficient blogging platform designed to streamline content creation and sharing. Developed primarily with React and React Router, it ensures a smooth and responsive user experience.`,
-    github: 'https://github.com/paskaeu25/fit-blog',
+    name: 'Dream Travel Website',
+    des: 'The website is designed to showcase the services offered by a travel agency and provide essential information to prospective and existing clients.',
+    github: 'https://github.com/paskaeu25/travel-website',
+    live: 'https://paskaeu25.github.io/travel-website/',
   },
 ];
 

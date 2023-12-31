@@ -27,7 +27,7 @@ export default function Portfolio() {
                 <h3>{name}</h3>
                 <p>{des}</p>
                 <div className="links">
-                  {github && !isLastItem && (
+                  {github && (
                     <a className="btn" target="_blank" href={github}>
                       Github
                       <span>

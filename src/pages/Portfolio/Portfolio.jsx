@@ -19,7 +19,7 @@ export default function Portfolio() {
       <section className="portfolio">
         <HeadingText title={'Recent'} titlePrimary={'Work'} />
         <div className="container portfolio-container">
-          {portfolio.map(({ id, img, name, des, github, live }, index) => {
+          {portfolio.map(({ id, img, name, des, github, live }) => {
             return (
               <Card classname={'project'} key={id}>
                 <img src={img} alt="" />
